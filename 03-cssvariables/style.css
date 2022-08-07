@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --base-color: #faebd7;
+  --blur: 0px;
+  --spacing: 10px;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(14, 32, 89);
+  color: whitesmoke;
+}
+
+h1 {
+  margin: 2rem;
+}
+
+img {
+  width: 80%;
+  filter: blur(var(--blur));
+}
+
+label {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+input {
+  margin-right: 2rem;
+}
+
+.image-container {
+  width: 80%;
+  margin: 4rem auto;
+  background-color: var(--base-color);
+  padding: var(--spacing);
+}
+
+.title__color {
+    color: var(--base-color);
+}
